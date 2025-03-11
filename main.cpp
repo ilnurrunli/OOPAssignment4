@@ -23,7 +23,7 @@ int main() {
     // Output results from both stacks
     cout << "MyStack1: ";
     s1.printStack();
-        cout << "MyStack2: ";
+    cout << "MyStack2: ";
     s2.printStack();
 
     return 0;
