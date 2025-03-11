@@ -1,0 +1,7 @@
+# ninja log v6
+0	24	1741696287228841351	CMakeFiles/OOPAssignment4.dir/MyVector.cpp.o	408f21163360cb1e
+1	24	1741696287229841278	CMakeFiles/OOPAssignment4.dir/MyLinkedList.cpp.o	531bf3444fa05bbf
+1	387	1741696287229841278	CMakeFiles/OOPAssignment4.dir/MyStack1.cpp.o	84f7b1a1915dc748
+1	389	1741696287229841278	CMakeFiles/OOPAssignment4.dir/MyStack2.cpp.o	9d291264fe1526f8
+0	389	1741696287228841351	CMakeFiles/OOPAssignment4.dir/main.cpp.o	b633bfc33f5d73f9
+389	467	1741696287617813262	OOPAssignment4	996ce1200f4f6b51
