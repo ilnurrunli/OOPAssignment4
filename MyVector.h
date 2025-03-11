@@ -8,16 +8,35 @@
 
 
 class MyVector {
-    int arr[100];  // Fixed-size array
-    int size;      // Number of elements in the vector
+private:
+    int arr[100];
+    int size;
 
 public:
-    MyVector();  // Constructor
+    MyVector() : size(0) {}
 
-    void add(int val);
-    int get(int index) const;
-    void removeLast();
-    int getSize() const;
+    void add(int val) {
+        if (size < 100) {
+            arr[size++] = val;
+        }
+    }
+
+    int get(int index) {
+        if (index >= 0 && index < size) {
+            return arr[index];
+        }
+        return -1; // Error case
+    }
+
+    void removeLast() {
+        if (size > 0) {
+            size--;
+        }
+    }
+
+    int getSize() {
+        return size;
+    }
 };
 
 

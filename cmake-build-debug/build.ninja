@@ -55,30 +55,6 @@ build CMakeFiles/OOPAssignment4.dir/main.cpp.o: CXX_COMPILER__OOPAssignment4_uns
   OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
   OBJECT_FILE_DIR = CMakeFiles/OOPAssignment4.dir
 
-build CMakeFiles/OOPAssignment4.dir/MyVector.cpp.o: CXX_COMPILER__OOPAssignment4_unscanned_Debug /home/ilnu/CLionProjects/OOPAssignment4/MyVector.cpp || cmake_object_order_depends_target_OOPAssignment4
-  DEP_FILE = CMakeFiles/OOPAssignment4.dir/MyVector.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
-  OBJECT_FILE_DIR = CMakeFiles/OOPAssignment4.dir
-
-build CMakeFiles/OOPAssignment4.dir/MyLinkedList.cpp.o: CXX_COMPILER__OOPAssignment4_unscanned_Debug /home/ilnu/CLionProjects/OOPAssignment4/MyLinkedList.cpp || cmake_object_order_depends_target_OOPAssignment4
-  DEP_FILE = CMakeFiles/OOPAssignment4.dir/MyLinkedList.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
-  OBJECT_FILE_DIR = CMakeFiles/OOPAssignment4.dir
-
-build CMakeFiles/OOPAssignment4.dir/MyStack1.cpp.o: CXX_COMPILER__OOPAssignment4_unscanned_Debug /home/ilnu/CLionProjects/OOPAssignment4/MyStack1.cpp || cmake_object_order_depends_target_OOPAssignment4
-  DEP_FILE = CMakeFiles/OOPAssignment4.dir/MyStack1.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
-  OBJECT_FILE_DIR = CMakeFiles/OOPAssignment4.dir
-
-build CMakeFiles/OOPAssignment4.dir/MyStack2.cpp.o: CXX_COMPILER__OOPAssignment4_unscanned_Debug /home/ilnu/CLionProjects/OOPAssignment4/MyStack2.cpp || cmake_object_order_depends_target_OOPAssignment4
-  DEP_FILE = CMakeFiles/OOPAssignment4.dir/MyStack2.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
-  OBJECT_FILE_DIR = CMakeFiles/OOPAssignment4.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OOPAssignment4
@@ -87,7 +63,7 @@ build CMakeFiles/OOPAssignment4.dir/MyStack2.cpp.o: CXX_COMPILER__OOPAssignment4
 #############################################
 # Link the executable OOPAssignment4
 
-build OOPAssignment4: CXX_EXECUTABLE_LINKER__OOPAssignment4_Debug CMakeFiles/OOPAssignment4.dir/main.cpp.o CMakeFiles/OOPAssignment4.dir/MyVector.cpp.o CMakeFiles/OOPAssignment4.dir/MyLinkedList.cpp.o CMakeFiles/OOPAssignment4.dir/MyStack1.cpp.o CMakeFiles/OOPAssignment4.dir/MyStack2.cpp.o
+build OOPAssignment4: CXX_EXECUTABLE_LINKER__OOPAssignment4_Debug CMakeFiles/OOPAssignment4.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/OOPAssignment4.dir
   POST_BUILD = :

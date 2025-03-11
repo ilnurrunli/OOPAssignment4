@@ -12,8 +12,9 @@ public:
     int val;
     MyLinkedList* next;
 
-    MyLinkedList(int v);  // Constructor
+    MyLinkedList(int v) : val(v), next(nullptr) {}
 };
+
 
 
 
